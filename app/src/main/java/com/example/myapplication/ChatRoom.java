@@ -26,7 +26,7 @@ public class ChatRoom extends AppCompatActivity {
 
     ChatRoomViewModel chatModel ;
     ActivityChatRoomBinding binding;
-    ArrayList<ChatMessage> messages = new ArrayList<>();
+    ArrayList<ChatMessage> messages =null;
     private RecyclerView.Adapter myAdapter;
     boolean position;
 
